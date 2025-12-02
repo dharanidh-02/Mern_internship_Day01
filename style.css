@@ -1,0 +1,21 @@
+.dem {
+    background-color: black;
+    color: violet;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.pals {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#sih {
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    transform-style: preserve-3d
+}
