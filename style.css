@@ -1,21 +1,177 @@
-.dem {
-    background-color: black;
-    color: violet;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+body {
+    background-image: url("https://images.unsplash.com/photo-1634976276568-9ea10353a8cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 40vh;
+    width: 30vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 40px;
+    border: 5px solid rgb(18, 189, 89);
+    background-color: rgb(249, 252, 248);
+    color: brown;
+    position: relative;
+    top: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.container h1 {
+    position: relative;
+    left: 25px;
+}
+
+.container button {
+    position: relative;
+    right: 200px;
+}
+
+.signup {
+    width: 80%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(6, 115, 6);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 129px;
 
 }
 
-.pals {
-    color: blueviolet;
-    font-size: 20px;
+.data {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.logo {
+    height: 80px;
+    width: auto;
+    padding: 20px;
+}
+
+.header-container {
+    width: 100%;
+    background-color: rgb(130, 231, 36);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.head-items {
+    display: flex;
+    color: springgreen;
+    gap: 25px;
 
 }
 
-#sih {
-    color: blueviolet;
+.head-items li {
+    list-style-type: none;
+    color: white;
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    transform-style: preserve-3d
+    position: relative;
+    right: 500px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    row-gap: 20px;
+}
+
+.head-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    margin-top: 40px;
+    /* space below header */
+    text-align: center;
+}
+
+.main-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(212, 196, 196);
+}
+
+.main-image-1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
+    position: relative;
+    right: 300px;
+    top: 100px;
+    background-color: rgb(249, 252, 248);
+}
+
+.main-image-2 {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
+    position: relative;
+    right: 220px;
+    top: 100px;
+}
+
+
+.main-image-3 {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
+    position: relative;
+    right: 120px;
+    top: 100px;
+}
+
+.main-image-4 {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
+    position: relative;
+
+    top: 100px;
 }

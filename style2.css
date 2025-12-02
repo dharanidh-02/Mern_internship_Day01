@@ -1,0 +1,59 @@
+.container {
+    height: 500px;
+    width: 500px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    padding-right: 40px;
+    border: 5px solid rgb(18, 189, 89);
+    background-color: rgb(249, 252, 248);
+    color: brown;
+    position: relative;
+    top: 250px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: black 20px 20px 20px;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(6, 115, 6);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 178px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1634976276568-9ea10353a8cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: contain;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.main-image-1 {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: auto;
+    left: auto;
+    right: 800px;
+    bottom: 500px;
+    box-shadow: 10px 10px 10px black;
+    border-radius: 20px;
+
+}
