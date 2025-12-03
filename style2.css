@@ -7,11 +7,12 @@
     margin-right: auto;
     padding-left: 50px;
     padding-right: 40px;
-    border: 5px solid rgb(18, 189, 89);
-    background-color: rgb(249, 252, 248);
-    color: brown;
+    border: 5px solid rgb(10, 10, 19);
+    background-color: rgba(249, 252, 248, 0.384);
+    color: rgb(54, 47, 47);
     position: relative;
     top: 250px;
+    left: 550px;
     align-items: center;
     border-radius: 20px;
     box-shadow: black 20px 20px 20px;
@@ -19,7 +20,7 @@
 
 button {
     padding: 10px 30px;
-    background-color: rgb(6, 115, 6);
+    background-color: rgb(148, 5, 5);
     border-radius: 5px;
     color: white;
     font-size: 20px;
@@ -35,25 +36,131 @@ button a {
 }
 
 body {
-    background-image: url("https://images.unsplash.com/photo-1634976276568-9ea10353a8cd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3JlZW4lMjBiYWNrZ3JvdW5kfGVufDB8fDB8fHww");
-    background-size: cover;
+    background-color: #000000;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b2434d52-5bf9-43b4-b9aa-cc5a28c70ab6/d9vx2p4-9090af82-70d1-410b-9fb0-d05baa00e507.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi9iMjQzNGQ1Mi01YmY5LTQzYjQtYjlhYS1jYzVhMjhjNzBhYjYvZDl2eDJwNC05MDkwYWY4Mi03MGQxLTQxMGItOWZiMC1kMDViYWEwMGU1MDcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5hj9F2w3JeEQlMdXcL90qLMDL73K9Hivq4SpwQasWDI");
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center 64.5px;
     object-fit: contain;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
 
-.main-image-1 {
-    width: 500px;
-    height: 500px;
-    position: relative;
-    top: auto;
-    left: auto;
-    right: 800px;
-    bottom: 500px;
-    box-shadow: 10px 10px 10px black;
-    border-radius: 20px;
+.header-container {
+    width: 100%;
+    background-color: rgba(20, 20, 30, 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 1000;
+}
 
+.logo {
+    height: 80px;
+    width: auto;
+    padding: 10px;
+}
+
+.head-items {
+    display: flex;
+    color: rgb(0, 102, 255);
+    gap: 25px;
+
+}
+
+.head-items li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 500px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    row-gap: 20px;
+}
+
+.head-items a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    margin-top: 40px;
+    /* space below header */
+    text-align: center;
+}
+
+.main-text {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(212, 196, 196);
+}
+
+/*.main-image-1 {
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: rgb(235, 229, 229) 20px 20px 20px;
+    position: relative;
+    right: 1100px;
+    top: 350px;
+    background-color: rgb(249, 252, 248);
+
+}*/
+
+.child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 370px;
+    gap: 20px;
+    position: relative;
+    right: 700px;
+    top: 500px;
+}
+
+/* each image box */
+.box {
+    height: 470px;
+    width: 430px;
+    background-image: url("https://media.tenor.com/2Q8li8es32EAAAAe/rog.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+    left: 300px;
+    top: -90px;
+    transition: transform 0.5s populate;
+    box-shadow: rgb(235, 229, 229) 20px 20px 20px;
+}
+
+.box:hover {
+    transform: scale(1.1) rotate(360deg);
 }
